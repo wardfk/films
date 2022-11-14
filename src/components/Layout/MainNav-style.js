@@ -19,6 +19,17 @@ const MainNavContainer = styled.header`
         text-transform: uppercase;
         font-weight: bold;
     }
+    @media screen and (max-width: 768px){
+        flex-direction: column;
+        ul{
+            display: block;
+            text-align: center;
+        }
+        li{
+            margin: 5px 0;
+            padding: 5px;
+        }
+    }
 `;
 
 export default MainNavContainer;
