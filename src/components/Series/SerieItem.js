@@ -2,9 +2,9 @@ import FilmItemContainer from '../FilmItem-style';
 
 
 function SeriesItem(props) {
-    const onAlertHandler = () => {
-        alert('Trailer not aviable')
-    }
+    // const onAlertHandler = () => {
+    //     alert('Trailer not aviable')
+    // }
     
     return(
         <FilmItemContainer>
@@ -14,7 +14,7 @@ function SeriesItem(props) {
                     <p>{props.year}</p>
                 </div>
                 {/* <div>
-                    <button onClick={onAlertHandler}>Watch trailer</button>
+                    <button onClick={onFavoriteHandler}>Add To Favorites</button>
                 </div> */}
         </FilmItemContainer>
     )

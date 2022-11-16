@@ -39,6 +39,9 @@ const FormContainer = styled.div`
         margin-top: 15px;
         cursor: pointer;
     } 
+    @media screen and (max-width: 700px){
+        width: 100%;
+    }
 `;
 
 export default FormContainer;

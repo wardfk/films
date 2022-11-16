@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const FilmListContainer = styled.ul`
-    background-color: #444;
+    background-color: #111;
     padding: 20px;
     margin: 5px 0px;
     border-radius: 15px;
@@ -16,6 +16,11 @@ const FilmListContainer = styled.ul`
         font-size: 1.8rem;
         color: #E30A13;
         text-shadow: 0 0 5px black;
+    }
+    @media screen and (max-width: 700px){
+        
+            justify-content: center;
+        
     }
 `;
 

@@ -4,7 +4,7 @@ import MainNavContainer from './MainNav-style';
 function MainNav() {
     return(
         <MainNavContainer>
-            <div>
+            <div className='logo'>
                 <Link to='/'>LOGO</Link>
             </div>
             <nav>
@@ -23,6 +23,9 @@ function MainNav() {
                     </li>
                 </ul>
             </nav>
+            {/* <div className='contact-link'>
+                <Link to='/contact'>Contact</Link>
+            </div> */}
         </MainNavContainer>
     )
 };

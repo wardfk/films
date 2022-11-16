@@ -2,7 +2,7 @@ import MainNav from "../components/Layout/MainNav";
 import FilmList from "../components/FilmList";
 import MovieList from "../components/Movies/MovieList";
 import SerieList from "../components/Series/SerieList";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
 
 
@@ -97,8 +97,6 @@ const Home = () => {
         return <div><strong>Loading...</strong></div>
     }
 
-   
-
 
 
     return(
@@ -107,7 +105,6 @@ const Home = () => {
             <MovieList movies={loadedMovies}/>
             <SerieList series={loadedSeries}/>
             {/* <FilmList films={filmsSeriesArray}/> */}
-            
         </div>
     )
 }
